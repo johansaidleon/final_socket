@@ -4,7 +4,7 @@ function generateRandomData() {
   const humidity = (Math.random() * (80 - 20) + 20).toFixed(2);
   const airQuality = (Math.random() * (100 - 40) + 40).toFixed(0);
   const rainfall = (Math.random() * (50 - 0) + 0).toFixed(2);
-  return `Temperatura: ${temperature}°C, Humedad: ${humidity}%, Calidad de aire: ${airQuality}, Lluvia: ${rainfall} mm`;
+  return `Temperatura: ${temperature}°C, Humedad: ${humidity}%, Calidad de aire: ${airQuality}, Lluvia: ${rainfall} cm`;
 }
 
 // Conectar a Socket.IO
